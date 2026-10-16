@@ -1,7 +1,7 @@
 body{
-  background-image: url("image/galaxy.jpg");
+    background-image: url("image/galaxy.webp");
   background-size:cover;
-  color:white;
+  color:rgb(50, 50, 148);
   text-align: center;
   font-style: italic;
   font-family: "Orbitron", sans-serif;
@@ -9,12 +9,39 @@ body{
   font-weight: 100;
   font-style: normal;
 }
-.space{
-  display: block;
-  width: 500px;
-  margin:250px auto;}
+.hero{
+ display:block;
+ width: 400px;
+margin:0px auto;
+margin:250px auto;
+text-shadow:3px 3px 0px black;
+}
 .btn{
-  padding:6px 12px;
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+  text-shadow:5px 5px 20px black;
+}
+  
+   .btn1{
+     padding:6px 12px;
+  border-radius: 10px;
   background-color: white;
-  font-family: inherit;
+   font-weight: bold;
+   }
+.btn2{
+   padding:6px 12px;
+  border-radius: 10px;
+  background-color: white;
+   font-weight: bold;
+}
+.underline{
+  border-bottom: 4px solid white;
+}
+#main-logo{
+  width:200px;
+}
+#hero{
+  color:whitesmoke;
+  text-shadow:5px 5px 20px black;
 }
